@@ -20,7 +20,7 @@ const pool = new Pool({
   password: process.env.DB_PASSWORD,
   port: process.env.DB_PORT || 5432,
   ssl: {
-    rejectUnauthorized: false, // This allows SSL connection without a CA certificate
+    rejectUnauthorized: false,
   },
 });
 
